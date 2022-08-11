@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1660200395349
+Build-Jdk: 17.0.2
+Built-By: Ajithvenkadesh
+Bundle-Activator: com.validation.Activator
+Bundle-Description: validator OSGi bundle project.
+Bundle-ManifestVersion: 2
+Bundle-Name: validator Bundle
+Bundle-SymbolicName: validator
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.validation;version="1.0.0.SNAPSHOT";uses:="org.osgi.
+ framework"
+Import-Package: org.osgi.framework;version="[1.8,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-2.4.1.201501161923
